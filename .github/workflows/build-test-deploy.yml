@@ -5,8 +5,7 @@ on: push
 jobs:
   build:
     runs-on: ubuntu-latest
-      
-      steps: 
+    steps:
         - name: checkout repo 
           uses: actions/checkout@v6
         - name: use node.js
